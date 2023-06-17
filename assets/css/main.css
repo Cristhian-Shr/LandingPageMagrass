@@ -2652,12 +2652,12 @@ ul.actions.fit.stacked {
 ul.icons {
   cursor: default;
   list-style: none;
-  padding-left: 0;
 }
 
 ul.icons li {
   display: inline-block;
-  padding: 0 1.25em 0 0;
+  padding: 0 50px;
+  margin-top: 40px;
 }
 
 ul.icons li:last-child {
@@ -2665,7 +2665,7 @@ ul.icons li:last-child {
 }
 
 ul.icons li .icon:before {
-  font-size: 1.5em;
+  font-size: 45px;
 }
 
 /* Major Icons */
@@ -3210,17 +3210,17 @@ body.is-preload #header:after {
 /* Footer */
 
 #footer {
-  padding: 6em 0 6em 0;
+  padding: 20px 0 20px 0;
   color: rgba(255, 255, 255, 0.75);
-  background-attachment: fixed, fixed, fixed;
+  /* background-attachment: fixed, fixed, fixed; */
   background-color: #18afac;
-  background-position: top left, center center, center center;
-  background-size: auto, cover, cover;
+  /* background-position: top left, center center, center center;
+  background-size: auto, cover, cover; */
   text-align: center;
 }
 
 #footer a {
-  border-bottom-color: rgba(255, 255, 255, 0.5);
+  border-bottom: none;
 }
 
 #footer a:hover {
@@ -3318,7 +3318,6 @@ body.is-preload #header:after {
 }
 
 #footer .copyright li {
-  border-left: solid 1px;
   display: inline-block;
   line-height: 1em;
   margin-left: 1em;
@@ -3331,8 +3330,13 @@ body.is-preload #header:after {
   padding: 0;
 }
 
-.logoTipo {
+#footer .logoTipo {
   width: 250px;
+}
+
+#footer .ptop {
+  margin-top: 40px;
+  font-size: 25px;
 }
 
 /* XLarge */
@@ -3414,6 +3418,10 @@ body.is-preload #header:after {
     padding: 4em 0 4em 0;
     background-attachment: scroll;
   }
+
+  #footer ul li {
+    list-style: none;
+  }
 }
 
 /* Medium */
@@ -3447,6 +3455,10 @@ body.is-preload #header:after {
 
   #footer {
     padding: 5em 3em 5em 3em;
+  }
+
+  #footer ul li {
+    list-style: none;
   }
 
   /* One */
@@ -3544,6 +3556,10 @@ body.is-preload #header:after {
   #footer {
     padding: 3em 1.5em 3em 1.5em;
   }
+
+  #footer ul li {
+    list-style: none;
+  }
 }
 
 /* XSmall */
@@ -3594,6 +3610,10 @@ body.is-preload #header:after {
   #footer .copyright li:first-child {
     margin-top: 0;
   }
+
+  #footer .icons li {
+    padding: 10px;
+  }
 }
 
 /* XXSmall */
@@ -3622,5 +3642,17 @@ body.is-preload #header:after {
 
   #footer {
     padding: 2em 1em 2em 1em;
+  }
+
+  #footer .copyright {
+    margin-top: none;
+  }
+
+  #footer ul {
+    padding: 0;
+  }
+
+  #footer .icons li {
+    padding: 8px;
   }
 }
