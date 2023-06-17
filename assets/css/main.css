@@ -3331,6 +3331,10 @@ body.is-preload #header:after {
   padding: 0;
 }
 
+.logoTipo {
+  width: 250px;
+}
+
 /* XLarge */
 
 @media screen and (max-width: 1680px) {
