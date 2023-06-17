@@ -3477,7 +3477,7 @@ body.is-preload #header:after {
 
 /* XSmall */
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 460px) {
   /* Button */
 
   input[type="submit"],
@@ -3495,12 +3495,15 @@ body.is-preload #header:after {
 
   /* section 1 */
   #one .video {
-    width: 250px;
+    width: 230px;
+    height: 180px;
+    max-width: 230px;
   }
 
   /* section 2 */
   #two .imgTam {
-    width: 200px;
+    width: 250px;
+    height: 190px;
   }
 
   /* Footer */
@@ -3550,16 +3553,17 @@ body.is-preload #header:after {
   #header {
     padding: 3em 1em 3em 1em;
   }
-  /* section 2 */
-  .imgTam {
-    margin-top: 100px;
-    width: 200px;
-    height: 200px;
-  }
 
   /* section 1 */
-  #one video {
-    width: 50px;
+  #one .video {
+    width: 230px;
+    height: 180px;
+  }
+
+  /* section 2 */
+  #two .imgTam {
+    width: 230px;
+    height: 180px;
   }
 
   /* Footer */
